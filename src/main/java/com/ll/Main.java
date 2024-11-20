@@ -20,11 +20,7 @@ class App {
 
       String cmd = scanner.nextLine();
 
-      if(cmd.equals("종료")) {
-        break;
-      }else if (cmd.equals("등록")) {
-        System.out.print("명언 : ");
-      }
+      if (cmd.equals("종료")) break;
 
     }
     scanner.close();
